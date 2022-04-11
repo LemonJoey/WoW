@@ -1,0 +1,30 @@
+Cat Form 
+/stopcasting
+/cast Cat Form 
+
+Talent Auto Changing
+#showtooltip
+/cast [talent: 7/2] Fury of Elune
+/cast [talent: 7/3] New Moon
+
+SetFocus
+#SetFocus
+/clearfocus 
+/focus [@mouseover,nodead,exists]
+
+Interupt
+# Solar Beam
+/cast [@mouseover,harm,exists][] Solar Beam
+
+Focus Interupt
+# Solar Beam
+/cast [@focus] Solar Beam
+
+# MightyBash
+/cast [@mouseover,harm,exists][] Mighty Bash
+
+# MightyBash
+/cast [@focus] Mighty Bash
+
+
+
