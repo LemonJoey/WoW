@@ -26,5 +26,24 @@ Focus Interupt
 # MightyBash
 /cast [@focus] Mighty Bash
 
+###HUNTER###
+
+#Kill Command
+/petassist
+/petattack
+/cast [pet] Kill Command; Call Pet 5
+/use [@pettarget]Claw
+/use [@pettarget]Bite
+/use [@pettarget]Smack
+/use [@pettarget] toxic sting
+/use 13
+
+#Misdirection
+/targetfocustarget
+/cast Misdirection
+/targetfocustarget
+
+# Tranquilizing Shot
+/cast [@mouseover,harm,exists][] Tranquilizing Shot
 
 
