@@ -46,4 +46,7 @@ Focus Interupt
 # Tranquilizing Shot
 /cast [@mouseover,harm,exists][] Tranquilizing Shot
 
+#BagofTricks
+/cast [@mouseover,exists,nodead,noharm] [] Bag of Tricks
+
 
