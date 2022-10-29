@@ -49,4 +49,5 @@ Focus Interupt
 #BagofTricks
 /cast [@mouseover,exists,nodead,noharm] [] Bag of Tricks
 
-
+#Rebirth
+/cast [target=mouseover,help] Rebirth
