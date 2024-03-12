@@ -28,7 +28,7 @@ Focus Interupt
 
 ###HUNTER###
 
-#Kill Command
+Kill Command
 /petassist
 /petattack
 /cast [pet] Kill Command; Call Pet 5
@@ -38,18 +38,46 @@ Focus Interupt
 /use [@pettarget] toxic sting
 /use 13
 
-#Misdirection
+Misdirection
 /targetfocustarget
 /cast Misdirection
 /targetfocustarget
 
-# Tranquilizing Shot
+Tranquilizing Shot
 /cast [@mouseover,harm,exists][] Tranquilizing Shot
 
-#BagofTricks
+BagofTricks
 /cast [@mouseover,exists,nodead,noharm] [] Bag of Tricks
 
-#Rebirth
+Rebirth
 /cast [target=mouseover,help] Rebirth
 
 /cast Highland Drake
+
+Trinket
+/use 14
+/use 13
+
+CancelFlap
+#showtooltip Flap
+/cancelaura Flap
+
+Flap
+#showtooltip Flap
+/use [nostance:4] Moonkin Form
+/use [nochanneling:Flap] Flap
+
+Elune/New Moon
+#showtooltip
+/cast [talent:7/2] Fury of Elune
+/cast [talent:7/3] New Moon
+
+Skull Bash
+#showtooltip
+/cast [mod:shift,@focus][] Skull Bash
+
+Nitro Boosts
+#showtooltip
+/use 6
+
+
