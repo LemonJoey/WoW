@@ -80,4 +80,26 @@ Nitro Boosts
 #showtooltip
 /use 6
 
+#showtooltip 
+/cast [@mouseover,harm,nodead][] Fiery Brand
+
+#showtooltip Sigil of Flame
+/cast [@player, nomod] Sigil of Flame; [@cursor, mod:alt] Sigil of Flame
+
+#showtooltip Sigil of Misery
+/cast [@player, nomod] Sigil of Misery; [@cursor, mod:alt] Sigil of Misery
+
+#showtooltip Sigil of Silence
+/cast [@player, nomod] Sigil of Silence; [@cursor, mod:alt] Sigil of Silence
+
+#showtooltip Elysian Decree
+/cast [@player, nomod] Elysian Decree; [@cursor, mod:alt] Elysian Decree
+
+#showtooltip 
+/cast [@mouseover,harm,nodead][] Throw Glaive
+
+#showtooltip Torment
+/cast [@mouseover,harm,nodead][] Torment 
+
+
 
